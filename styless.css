@@ -1,0 +1,90 @@
+body {
+    background-color: #FFC4DD;
+     display:flex;
+     flex-flow:row wrap;
+     justify-content:center;
+
+     align-items:center;
+     align-content:center;
+     margin:20px; 
+    
+     text-align:center;
+}
+ 
+a {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 15px;
+    font-family:"Lobster", cursive;
+        font-size: 17px;
+        color: #7251b5;
+        font-weight:bold;
+        text-decoration:underline;
+        font-style: italic;
+        
+    }
+
+    a:hover {
+        color: #270082;
+        }
+    
+
+.monkey2 {
+width: 300px;
+margin-top:80px;
+
+}
+
+
+  .thought {
+    display:flex;
+    font-family:"Lobster", cursive;
+    color: #FF0592;
+    background-color:#FFEDED;
+    padding:25px;
+    border-radius:30px;
+    min-width:50px;
+    max-width:240px;
+    min-height:40px;
+  margin-bottom: 350px;
+    position:relative;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    font-style: italic;
+    font-weight: bold;
+     
+  }
+  .thought:before,
+  .thought:after {
+    content:"";
+    background-color:#FFEDED;
+    border-radius:50%;
+    display:block;
+    position:absolute;
+    z-index:-1;
+  }
+  .thought:before {
+    width:44px;
+    height:44px;
+    top:-12px;
+    left:28px;
+    box-shadow:-50px 30px 0 -12px #FFEDED;
+  }
+  .thought:after {
+    bottom:-10px;
+    right:26px;
+    width:30px;
+    height:30px;
+    box-shadow:40px -34px 0 0 #FFEDED,
+               -28px -6px 0 -2px #FFEDED,
+               -24px 17px 0 -6px #FFEDED,
+               -5px 25px 0 -10px #FFEDED;
+    
+  }
+
+  .a {
+    position: fixed;
+    bottom: 0;
+  }
+
